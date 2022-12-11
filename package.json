@@ -1,0 +1,26 @@
+{
+  "name": "apache-streampipes-website",
+  "version": "0.65.0",
+  "description": "The Apache StreamPipes website",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build-website": "harp compile website build",
+    "start-website": "harp server website"
+  },
+  "dependencies": {
+    "ejs": "3.1.3",
+    "node-sass": "^7.0.1"
+  },
+  "devDependencies": {
+    "harp": "^0.32.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/apache/streampipes-website"
+  },
+  "keywords": [],
+  "license": "Apache License 2.0"
+}
